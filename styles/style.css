@@ -108,7 +108,7 @@ header button {
   border: none;
 }
 header .off button {
-  background-image: url(/images/icon-hamburger.svg);
+  background-image: url(../images/icon-hamburger.svg);
 }
 header .off ul li:last-of-type a {
   margin-left: 1rem;
@@ -120,10 +120,10 @@ header .off ul li:last-of-type a:hover {
   background-color: hsl(270deg, 9%, 17%);
 }
 header .on button {
-  background-image: url(/images/icon-close.svg);
+  background-image: url(../images/icon-close.svg);
 }
 header .on ul {
-  background-image: url(/images/bg-pattern-mobile-nav.svg);
+  background-image: url(../images/bg-pattern-mobile-nav.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 100% auto;
@@ -175,7 +175,7 @@ header .on ul li:last-of-type a:hover {
     height: 330px;
     right: 0px;
     bottom: -175px;
-    background-image: url(/images/bg-pattern-intro-right-mobile.svg);
+    background-image: url(../images/bg-pattern-intro-right-mobile.svg);
     background-position: 0 0px;
   }
   #hero > div {
@@ -194,7 +194,7 @@ header .on ul li:last-of-type a:hover {
     height: 165px;
     top: 0px;
     left: 0;
-    background-image: url(/images/bg-pattern-intro-left-mobile.svg);
+    background-image: url(../images/bg-pattern-intro-left-mobile.svg);
     background-size: cover;
   }
   #hero > div:first-of-type h1 {
@@ -203,7 +203,7 @@ header .on ul li:last-of-type a:hover {
     text-align: center;
   }
   #hero > div:last-of-type {
-    background-image: url(/images/image-intro-mobile.webp);
+    background-image: url(../images/image-intro-mobile.webp);
   }
 }
 @media (width > 729px) {
@@ -220,7 +220,7 @@ header .on ul li:last-of-type a:hover {
     height: 504px;
     top: 430px;
     left: 0;
-    background-image: url(/images/bg-pattern-intro-left-desktop.svg);
+    background-image: url(../images/bg-pattern-intro-left-desktop.svg);
     background-size: cover;
   }
   #hero::after {
@@ -230,7 +230,7 @@ header .on ul li:last-of-type a:hover {
     height: 513px;
     right: 0px;
     top: 0;
-    background-image: url(/images/bg-pattern-intro-right-desktop.svg);
+    background-image: url(../images/bg-pattern-intro-right-desktop.svg);
     background-position: 0 -80px;
   }
   #hero > div {
@@ -252,7 +252,7 @@ header .on ul li:last-of-type a:hover {
     background-color: hsl(0deg, 0%, 98%);
   }
   #hero > div:last-of-type {
-    background-image: url(/images/image-intro-desktop.webp);
+    background-image: url(../images/image-intro-desktop.webp);
   }
 }
 #hero {
@@ -371,7 +371,7 @@ header .on ul li:last-of-type a:hover {
     flex-direction: column;
     padding: 4.3rem 2.3rem;
     text-align: center;
-    background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
+    background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
   }
 }
 @media (width > 730px) {
@@ -380,7 +380,7 @@ header .on ul li:last-of-type a:hover {
   }
   #work > div {
     padding: 4.3rem 5rem;
-    background-image: url(/images/bg-pattern-how-we-work-desktop.svg);
+    background-image: url(../images/bg-pattern-how-we-work-desktop.svg);
   }
 }
 #work {
@@ -420,7 +420,7 @@ header .on ul li:last-of-type a:hover {
 
 @media (width < 730px) {
   footer > div {
-    background-image: url(/images/bg-pattern-footer-mobile.svg);
+    background-image: url(../images/bg-pattern-footer-mobile.svg);
     background-size: 100% auto;
     padding-block: 4rem;
   }
@@ -443,7 +443,7 @@ header .on ul li:last-of-type a:hover {
 @media (width > 729px) {
   footer > div {
     padding-block: 2rem;
-    background-image: url(/images/bg-pattern-footer-desktop.svg);
+    background-image: url(../images/bg-pattern-footer-desktop.svg);
   }
   footer > div > ul:first-of-type {
     gap: 1rem;

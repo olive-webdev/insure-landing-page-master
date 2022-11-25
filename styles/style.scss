@@ -115,7 +115,7 @@ header {
   }
   & .off {
     & button {
-      background-image: url(/images/icon-hamburger.svg);
+      background-image: url(../images/icon-hamburger.svg);
     }
     & ul {
       & li {
@@ -135,10 +135,10 @@ header {
   }
   & .on {
     & button {
-      background-image: url(/images/icon-close.svg);
+      background-image: url(../images/icon-close.svg);
     }
     & ul {
-      background-image: url(/images/bg-pattern-mobile-nav.svg);
+      background-image: url(../images/bg-pattern-mobile-nav.svg);
       background-repeat: no-repeat;
       background-position: bottom center;
       background-size: 100% auto;
@@ -191,7 +191,7 @@ header {
       height: 330px;
       right: 0px;
       bottom: -175px;
-      background-image: url(/images/bg-pattern-intro-right-mobile.svg);
+      background-image: url(../images/bg-pattern-intro-right-mobile.svg);
       background-position: 0 0px;
     }
     & > div {
@@ -205,7 +205,7 @@ header {
           height: 165px;
           top: 0px;
           left: 0;
-          background-image: url(/images/bg-pattern-intro-left-mobile.svg);
+          background-image: url(../images/bg-pattern-intro-left-mobile.svg);
           background-size: cover;
         }
         background-color: $DarkViolet;
@@ -218,7 +218,7 @@ header {
         }
       }
       &:last-of-type {
-        background-image: url(/images/image-intro-mobile.webp);
+        background-image: url(../images/image-intro-mobile.webp);
       }
     }
   }
@@ -237,7 +237,7 @@ header {
       height: 504px;
       top: 430px;
       left: 0;
-      background-image: url(/images/bg-pattern-intro-left-desktop.svg);
+      background-image: url(../images/bg-pattern-intro-left-desktop.svg);
       background-size: cover;
     }
     &::after {
@@ -247,7 +247,7 @@ header {
       height: 513px;
       right: 0px;
       top: 0;
-      background-image: url(/images/bg-pattern-intro-right-desktop.svg);
+      background-image: url(../images/bg-pattern-intro-right-desktop.svg);
       background-position: 0 -80px;
     }
     & > div {
@@ -270,7 +270,7 @@ header {
         }
       }
       &:last-of-type {
-        background-image: url(/images/image-intro-desktop.webp);
+        background-image: url(../images/image-intro-desktop.webp);
       }
     }
   }
@@ -391,7 +391,7 @@ header {
       flex-direction: column;
       padding: 4.3rem 2.3rem;
       text-align: center;
-      background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
+      background-image: url(../images/bg-pattern-how-we-work-mobile.svg);
     }
   }
 }
@@ -400,7 +400,7 @@ header {
     padding-inline: max(calc((100vw - 1110px) / 2), 2rem);
     & > div {
       padding: 4.3rem 5rem;
-      background-image: url(/images/bg-pattern-how-we-work-desktop.svg);
+      background-image: url(../images/bg-pattern-how-we-work-desktop.svg);
     }
   }
 }
@@ -440,7 +440,7 @@ header {
 @media (width < 730px) {
   footer {
     & > div {
-      background-image: url(/images/bg-pattern-footer-mobile.svg);
+      background-image: url(../images/bg-pattern-footer-mobile.svg);
       background-size: 100% auto;
       padding-block: 4rem;
       & > ul {
@@ -467,7 +467,7 @@ header {
   footer {
     & > div {
       padding-block: 2rem;
-      background-image: url(/images/bg-pattern-footer-desktop.svg);
+      background-image: url(../images/bg-pattern-footer-desktop.svg);
       & > ul {
         &:first-of-type {
           gap: 1rem;
