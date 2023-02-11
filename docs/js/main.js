@@ -1,0 +1,1 @@
+const nav=document.getElementById("nav"),links=document.querySelectorAll("header>nav>ul>li>a");document.addEventListener("click",e=>{"button"===e.target.localName&&(nav.classList.toggle("off"),nav.classList.toggle("on")),links.forEach(el=>{el===e.target&&(nav.classList.toggle("off"),nav.classList.toggle("on"))})});
